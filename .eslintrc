@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["rackt", "plugin:flowtype/recommended"],
+  "rules": {
+    // TODO: turn on.
+    "no-console": 0
+  },
+  "plugins": [
+    "flowtype"
+  ],
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "DEBUG":true,
+    "console": true
+  },
+  "parserOptions": {
+  }
+}
